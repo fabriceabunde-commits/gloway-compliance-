@@ -11,10 +11,10 @@ workers_dev = false
 # ADMIN_EMAILS = "authorized-team@example.com"
 #
 # Create D1 and then uncomment and replace:
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "gloway-compliance"
-# database_id = "REPLACE_WITH_D1_DATABASE_ID"
+[[d1_databases]]
+binding = "DB"
+database_name = "gloway-compliance"
+database_id = "cd4d5d68-e7a2-4e91-899a-007a515259e6"
 #
 # Set TURNSTILE_SECRET via: npx wrangler secret put TURNSTILE_SECRET
 # Do not commit secrets or live customer information.
